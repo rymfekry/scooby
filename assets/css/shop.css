@@ -1,0 +1,155 @@
+.shop-range{
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.203);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.shop-widget-title{
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.range-widget{
+    padding-top: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type=range] {
+    width: 200px;
+    color: #3E8E41;
+  }
+  
+  output {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+/* lllllllllllllllll */
+.brand-item{
+  text-transform: uppercase;
+}
+.name-item{
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.price-item-info{
+  gap: 20px;
+}
+.price-item-seal
+{
+  color: #ff9100;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.price-item-noseal{
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.item-cart-styl
+{
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 0 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  height: 40px;
+}
+.btn-shop-favor {
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 0 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  height: 40px;
+}
+.stick-offer{
+  position: absolute;
+    left: -1px;
+    top: -1px;
+    z-index: 1;
+}
+.stick-offer p{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .02em;
+  color: #fff;
+  background: #b62052;
+  border-radius: 10px 0;
+  padding: 3px 14px;
+}
+/* search by catogry */
+.form-inner{
+  max-width: 590px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.203);
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ececec;
+  /* border-radius: 20px; */
+  padding: 5px;
+}
+.form-inner input{
+  border: none;
+  width: 73%;
+  background-color: var(--white-color);
+  height: 48px;
+  /* border-radius: 180px; */
+  padding: 20px 25px;
+  margin-right: 0;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: .03em;
+  color: #a5a5a5;
+  outline: none;
+}
+.conect-btn{
+  width: 100px;
+  
+}
+.button-linner p{
+  /* text-decoration: none; */
+  color: var(--white-color);
+  /* margin-top: 10px; */
+  text-align: center;
+  font-weight: 600;
+  /* margin-top: 5px; */
+  margin-bottom: 0;
+}
+.cart-icon{
+  position: relative;
+ 
+}
+.Quaintaity{
+  background-color: #fef1dd;
+  padding:0 5px;
+  border-radius: 10px;
+  height: 25px;
+  position: absolute;
+  top: 5px;
+  margin-right: 0px;
+}
+.disaplead{
+  background-color: rgba(255, 0, 0, 0.295);
+  cursor: no-drop;
+}
+.card-descriotion .card-inner{
+  height: 538px;
+}
